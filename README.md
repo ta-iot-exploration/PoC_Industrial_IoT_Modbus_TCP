@@ -108,7 +108,7 @@ The architecture of the IIoT telemetry system to send industrial devices data to
      - Create Digital twin models using this [link](https://learn.microsoft.com/en-us/azure/digital-twins/concepts-models). You can find the models for this demo        from this link. You can manually upload the models to the digital twin explorer using this [link](https://learn.microsoft.com/en-us/azure/digital-twins/how-to-use-azure-digital-twins-explorer).
      - Create a digital twin for the models and relationship between them. You can use the python script provided in the repo or you can do it manually on the digital twin explorer.
 
-
+8. The demo video can be found [here](https://drive.google.com/file/d/1Qf-dqZjnuU1CfMLN8qUFS9J6a2vZOve1/view?usp=drive_link)
      
 
      
