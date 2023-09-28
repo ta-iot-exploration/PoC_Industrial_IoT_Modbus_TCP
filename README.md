@@ -105,8 +105,10 @@ The architecture of the IIoT telemetry system to send industrial devices data to
      - Note that there are two functions, “modbus_to_adt” for receiving the telemetry events from IoT hub and updating the digital twin. “Twin_iothub_update”            function receives the digital twin patch (in this demo Set_Temperature property) and updates the device twin of the device created in the IoT hub.
   7. Set up Azure Digital twin
      - Create a Azure digital twin from Azure portal using this [link](https://learn.microsoft.com/en-us/azure/digital-twins/how-to-set-up-instance-portal)
-     - Create Digital twin models using this [link](https://learn.microsoft.com/en-us/azure/digital-twins/concepts-models). You can find the models for this demo        from this link. You can manually upload the models to the digital twin explorer using this [link](https://learn.microsoft.com/en-us/azure/digital-twins/how-to-use-azure-digital-twins-explorer).
-     - Create a digital twin for the models and relationship between them. You can use the python script provided in the repo or you can do it manually on the digital twin explorer.
+     - Create Digital twin models using this [link](https://learn.microsoft.com/en-us/azure/digital-twins/concepts-models). You can find the models for the demo in "/DigitalTwin/models" directory. You can manually upload the models to the digital twin explorer using this [link](https://learn.microsoft.com/en-us/azure/digital-twins/how-to-use-azure-digital-twins-explorer).
+     - Create a digital twin for the models and relationship between them. You can use the python script provided in this [link](https://learn.microsoft.com/en-us/python/api/overview/azure/digitaltwins-core-readme?view=azure-python) or you can do it manually on the digital twin explorer. In the demo it was done manually.
+     - Once the model is uploaded, click on "..." of the model and select create twin, then enter the name of the twin. The twin for the model will be created. Repeat this process for all models.
+     - To create a relationship between twins, select two digital twins by holding "Shift" button on the keyboard and then right click on the twin then select "add relationship". A new window will appear and display source and target ID and relationship. Then click "save" button, the relationship will be created automatically for you. 
 
 8. The demo video can be found [here](https://drive.google.com/file/d/1Qf-dqZjnuU1CfMLN8qUFS9J6a2vZOve1/view?usp=drive_link)
      
