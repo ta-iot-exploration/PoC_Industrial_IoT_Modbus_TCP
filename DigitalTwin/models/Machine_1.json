@@ -1,0 +1,18 @@
+{
+    "@id": "dtmi:group_2:Machine_1;1",
+    "@type": "Interface",
+    "displayName": "Machine_1",
+    "@context": "dtmi:dtdl:context;2",
+    "contents": [
+        {
+            "@type": "Property",
+            "name": "Avg_Current",
+            "schema": "float"
+        },
+        {
+            "@type": "Property",
+            "name": "Winding_Temperature",
+            "schema": "float"
+        }
+    ]
+}
