@@ -1,0 +1,25 @@
+{
+    "@id": "dtmi:Node:Modbus_TCP_device;1",
+    "@type": "Interface",
+    "displayName": "Modbus_Device",
+    "@context": "dtmi:dtdl:context;2",
+    "contents": [
+        {
+            "@type": "Property",
+            "name": "Set_Temperature",
+            "schema": "float"
+        },
+        {
+            "@type": "Relationship",
+            "name": "group1",
+            "displayName": "Ambient_Sensor",
+            "target": "dtmi:group_1:Ambient_Sensor;1"
+        },
+        {
+            "@type": "Relationship",
+            "name": "group2",
+            "displayName": "Machine_1",
+            "target": "dtmi:group_2:Machine_1;1"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "@id": "dtmi:group_1:Ambient_Sensor;1",
+    "@type": "Interface",
+    "displayName": "Ambient_Sensor",
+    "@context": "dtmi:dtdl:context;2",
+    "contents": [
+        {
+            "@type": "Property",
+            "name": "Temperature",
+            "schema": "float"
+        },
+        {
+            "@type": "Property",
+            "name": "Humidity",
+            "schema": "integer"
+        },
+        {
+            "@type": "Property",
+            "name": "Air_Quality",
+            "schema": "integer"
+        }
+    ]
+}
